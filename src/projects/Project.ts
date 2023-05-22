@@ -1,4 +1,5 @@
 export class Project {
+	[x: string]: any;
   id: number | undefined;
   name: string = '';
   description: string = '';
