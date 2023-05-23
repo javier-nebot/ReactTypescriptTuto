@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import { MOCK_PROJECTS } from './MockProjects';
+import { MOCK_PROJECTS } from './MockProjects'; // no se utiliza
 import ProjectList from './ProjectList';
 import { Project } from './Project';
 import { projectAPI } from './projectAPI';
