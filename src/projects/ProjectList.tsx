@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectForm from './ProjectForm';
 
 interface ProjectListProps {
-  projects: Project[];
+	projects: Project[];
 	onSave: (project: Project) => void;
 }
 
@@ -20,6 +20,7 @@ function ProjectList ({ projects, onSave }: ProjectListProps) {
 		<div key={project.id} className="cols-sm">
 			{project === projectBeingEdited ? (
 				<ProjectForm
+					project={project}
 					onSave={onSave}
 					onCancel={cancelEditing}/>
 			) : (

@@ -6,7 +6,7 @@ function formatDescription(description: string): string {
 }
 
 interface ProjectCardProps {
-  project : Project;
+	project : Project;
 	onEdit: (project: Project) => void;
 }
 
@@ -17,7 +17,7 @@ function ProjectCard(props: ProjectCardProps) {
 	};
 	return (
 		<div className="card">
-      <img src={project.imageUrl} alt={project.name} />
+			<img src={project.imageUrl} alt={project.name} />
       <section className="section dark">
         <h5 className="strong">
           <strong>{project.name}</strong>
