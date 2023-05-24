@@ -1,5 +1,22 @@
-Hola
+# Este repository viene de la web:
+## https://handsonreact.com/docs/
 
+Si quieres los resultados de cada Lab, se encuentran en esta pagina Github:
+https://github.com/craigmckeachie/keeptrack-ts/branches/stale
+
+
+Lo que sigue a continuacion se crea automaticamenete con el package.
+
+### Se necesiten 3 terminales:
+ ### La primera `npm start`
+
+  ### La segunta `npm run api`
+
+   ### La tercera `serve -s build`
+ 
+  
+
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

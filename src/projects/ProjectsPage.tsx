@@ -6,7 +6,6 @@ import { AnyAction } from 'redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { ProjectState } from './state/projectTypes';
 
-import { Project } from './Project';
 import { useSelector, useDispatch } from 'react-redux';
 import { AppState } from '../state';
 
